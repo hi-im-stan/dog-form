@@ -51,7 +51,9 @@ textarea {
 select,
 input[type="text"],
 input[type="date"],
-input[type="month"] {
+input[type="month"],
+input[type="email"],
+input[type="tel"] {
     width: 200px;
 }
 
