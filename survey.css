@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.survey {
+    background-color: #90ee90;
+    padding: 30px 20px;
+}
+
+.survey table {
+    border-collapse: collapse;
+}
+
+.survey td {
+    padding: 8px 10px;
+    vertical-align: top;
+}
+
+.survey td.label {
+    width: 330px;
+    font-size: 1.05em;
+}
+
+.options {
+    border: 1px solid #808080;
+    background-color: #ffffff;
+    padding: 6px 10px;
+    width: 600px;
+}
+
+.options label {
+    display: block;
+    font-size: 1.05em;
+}
+
+textarea {
+    width: 620px;
+    height: 90px;
+}
+
+select,
+input[type="text"] {
+    width: 200px;
+}

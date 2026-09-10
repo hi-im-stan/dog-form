@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dog Survey</title>
+        <link rel="stylesheet" href="survey.css">
+    </head>
+
+    <body>
+        <h1>Dog Survey</h1>
+
+        <div class="survey">
+            <form action="#" method="post">
+                <table>
+                    <tr>
+                        <td class="label">
+                            <label for="owns-dog">Do you own a dog?</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="owns-dog" name="owns-dog">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label">
+                            <label for="breed">What is your favourite dog breed?</label>
+                        </td>
+                        <td>
+                            <select id="breed" name="breed">
+                                <option value="none">No favouite</option>
+                                <option value="labrador">Labrador</option>
+                                <option value="german-shepherd">German Shepherd</option>
+                                <option value="collie">Collie</option>
+                                <option value="poodle">Poodle</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label"></td>
+                        <td>
+                            <input type="text" name="other-breed">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label">What is the best thing about a dog?</td>
+                        <td>
+                            <div class="options">
+                                <label>
+                                    <input type="radio" name="best-thing" value="nature">
+                                    Their loveable nature
+                                </label>
+                                <label>
+                                    <input type="radio" name="best-thing" value="security">
+                                    That they make great security
+                                </label>
+                                <label>
+                                    <input type="radio" name="best-thing" value="nothing">
+                                    Nothing
+                                </label>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label">
+                            <label for="story">Tell us your favourite dog story</label>
+                        </td>
+                        <td>
+                            <textarea id="story" name="story"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="submit" value="Submit">
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
