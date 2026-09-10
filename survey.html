@@ -8,27 +8,38 @@
     </head>
 
     <body>
-        <h1>Dog Survey</h1>
+        <h1>Tell Us About Dogs</h1>
 
         <div class="survey">
             <form action="#" method="post">
                 <table>
                     <tr>
-                        <td class="label">
-                            <label for="owns-dog">Do you own a dog?</label>
-                        </td>
+                        <td class="label">What do you value most in a dog?</td>
                         <td>
-                            <input type="checkbox" id="owns-dog" name="owns-dog">
+                            <div class="options">
+                                <label>
+                                    <input type="radio" name="best-thing" value="nature">
+                                    Their loving personality
+                                </label>
+                                <label>
+                                    <input type="radio" name="best-thing" value="security">
+                                    How well they guard the home
+                                </label>
+                                <label>
+                                    <input type="radio" name="best-thing" value="nothing">
+                                    Honestly, nothing at all
+                                </label>
+                            </div>
                         </td>
                     </tr>
 
                     <tr>
                         <td class="label">
-                            <label for="breed">What is your favourite dog breed?</label>
+                            <label for="breed">Which breed appeals to you most?</label>
                         </td>
                         <td>
                             <select id="breed" name="breed">
-                                <option value="none">No favouite</option>
+                                <option value="none">No preference</option>
                                 <option value="labrador">Labrador</option>
                                 <option value="german-shepherd">German Shepherd</option>
                                 <option value="collie">Collie</option>
@@ -39,35 +50,26 @@
                     </tr>
 
                     <tr>
-                        <td class="label"></td>
-                        <td>
-                            <input type="text" name="other-breed">
+                        <td class="label">
+                            <label for="other-breed">If you picked Other, name the breed</label>
                         </td>
-                    </tr>
-
-                    <tr>
-                        <td class="label">What is the best thing about a dog?</td>
                         <td>
-                            <div class="options">
-                                <label>
-                                    <input type="radio" name="best-thing" value="nature">
-                                    Their loveable nature
-                                </label>
-                                <label>
-                                    <input type="radio" name="best-thing" value="security">
-                                    That they make great security
-                                </label>
-                                <label>
-                                    <input type="radio" name="best-thing" value="nothing">
-                                    Nothing
-                                </label>
-                            </div>
+                            <input type="text" id="other-breed" name="other-breed">
                         </td>
                     </tr>
 
                     <tr>
                         <td class="label">
-                            <label for="story">Tell us your favourite dog story</label>
+                            <label for="owns-dog">Do you live with a dog right now?</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="owns-dog" name="owns-dog">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label">
+                            <label for="story">Share a dog story we should hear</label>
                         </td>
                         <td>
                             <textarea id="story" name="story"></textarea>
@@ -75,10 +77,10 @@
                     </tr>
 
                     <tr>
+                        <td class="label"></td>
                         <td>
-                            <input type="submit" value="Submit">
+                            <input type="submit" class="send" value="Send my answers">
                         </td>
-                        <td></td>
                     </tr>
                 </table>
             </form>

@@ -5,6 +5,8 @@ body {
 
 h1 {
     font-size: 2em;
+    border-bottom: 3px solid #90ee90;
+    padding-bottom: 6px;
 }
 
 .survey {
@@ -22,13 +24,16 @@ h1 {
 }
 
 .survey td.label {
-    width: 330px;
+    width: 300px;
     font-size: 1.05em;
+    text-align: right;
+    padding-right: 16px;
 }
 
 .options {
     border: 1px solid #808080;
     background-color: #ffffff;
+    border-radius: 6px;
     padding: 6px 10px;
     width: 600px;
 }
@@ -46,4 +51,20 @@ textarea {
 select,
 input[type="text"] {
     width: 200px;
+}
+
+.send {
+    background-color: #ffffff;
+    color: #1a5c1a;
+    border: 2px solid #1a5c1a;
+    border-radius: 6px;
+    padding: 8px 22px;
+    font-size: 1.05em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.send:hover {
+    background-color: #1a5c1a;
+    color: #ffffff;
 }
