@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Room Booking</title>
+        <link rel="stylesheet" href="survey.css">
+    </head>
+
+    <body>
+        <h1>Room Booking</h1>
+
+        <div class="survey">
+            <form action="#" method="post">
+                <table>
+                    <tr>
+                        <td class="label">
+                            <label for="booking-name">Booking name</label>
+                        </td>
+                        <td>
+                            <input type="text" id="booking-name" name="booking-name">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label">
+                            <label for="room-type">Room type</label>
+                        </td>
+                        <td>
+                            <select id="room-type" name="room-type">
+                                <option value="single">Single</option>
+                                <option value="double">Double</option>
+                                <option value="suite">Suite</option>
+                                <option value="penthouse">Penthouse</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label">
+                            <label for="start-date">Check in</label>
+                        </td>
+                        <td>
+                            <input type="date" id="start-date" name="start-date">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label">
+                            <label for="end-date">Check out</label>
+                        </td>
+                        <td>
+                            <input type="date" id="end-date" name="end-date">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label"></td>
+                        <td>
+                            <input type="submit" class="send" value="Book">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

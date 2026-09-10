@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Card Payment</title>
+        <link rel="stylesheet" href="survey.css">
+    </head>
+
+    <body>
+        <h1>Card Payment</h1>
+
+        <div class="survey">
+            <form action="#" method="post">
+                <table>
+                    <tr>
+                        <td class="label">
+                            <label for="card-number">Card number</label>
+                        </td>
+                        <td>
+                            <input type="text" id="card-number" name="card-number" maxlength="19">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label">
+                            <label for="expiry">Expiry date</label>
+                        </td>
+                        <td>
+                            <input type="month" id="expiry" name="expiry">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label">
+                            <label for="cvv">CVV</label>
+                        </td>
+                        <td>
+                            <input type="text" class="short" id="cvv" name="cvv" maxlength="4">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="label"></td>
+                        <td>
+                            <input type="submit" class="send" value="Pay">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

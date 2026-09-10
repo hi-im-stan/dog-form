@@ -49,8 +49,14 @@ textarea {
 }
 
 select,
-input[type="text"] {
+input[type="text"],
+input[type="date"],
+input[type="month"] {
     width: 200px;
+}
+
+input.short {
+    width: 80px;
 }
 
 .send {
